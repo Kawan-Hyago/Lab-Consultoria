@@ -1,0 +1,167 @@
+body {
+    background-color: #002434;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-right: 8em;
+    font-size: .875em;
+    color: white;
+}
+span {
+    color: #00aaea;
+}
+ul:first-child {
+    color: #147a9c;
+}
+header ul, footer ul {
+    list-style-type: none;
+    display: flex;
+}
+header ul li, footer ul li{
+    margin-right: 1em;
+}
+header {
+    bottom: 0;
+}
+header ul li {
+    margin-right: 4.475em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#i {
+    color: #147a9c;
+}
+header ul {
+    position:relative;
+    bottom: 3.125em;
+    left: 20em;
+}
+header {
+    padding-left: 2em;
+}
+#banner {
+    background-image: url("surf.png");
+    background-repeat: no-repeat;
+    padding: 3.125em;
+    padding-bottom: 200px;
+    padding-top: 80px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#banner h1 {
+    font-size: 5em;
+}
+#banner p{
+    font-size: 1.5em;
+    position: relative;
+    bottom: 2em;
+}
+main {
+    background-color: white;
+    padding-left: 1.250em;
+    padding-right: 1.250em;
+    padding-top: 1.250em;
+}
+#servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#servicos div {
+    width: 30%;
+    padding: 1em;
+    background-color: #0076aa;
+    margin-bottom: 1em;;
+}
+main #servicos a {
+    background-color: #00bdee;
+    padding: 1em;
+    position: relative;
+    top: 1em;
+}
+#servicos h3 {
+    font-size: 2em;
+    position: relative;
+    bottom: 1em;
+}
+#servicos p {
+    position: relative;
+    bottom: 3em;
+}
+#sobre {
+    color: black;
+}
+#sobre a {
+    color: #147a9c;
+}
+#sobre h3{
+    font-size: 2em;
+}
+#sobre ul{
+    display: inline-flex;
+    position:relative;
+    right: 3em;
+    bottom: 1em;
+    list-style-type: none;
+    justify-content: space-between;
+}
+#sobre ul li {
+    margin-left: 1em;
+}
+#sobre ul li a{
+    position: relative;
+    top: 6.650em;
+}
+#sobre li p {
+    position: relative;
+    bottom: 1.2em;
+}
+#sobre dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sobre section div {
+    background-color: #d5f0ff;
+    padding: 1em;
+    font-size: 1.2em;
+}
+main footer {
+    display: flex;
+    justify-content: center;;
+    background-color:#d5f0ff;
+    color: #000000;
+    padding: 1em;
+    position: relative;
+    right: 1.23em;
+    width: 100%;
+    padding-left: 1.5em;
+}
+main footer a {
+    color: #489ab8;
+}
+main footer ul {
+    align-items: center;
+}
+#rodape {
+    position: relative;
+    left: 1em;
+}
+footer div {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 1em;
+    bottom: 2em;
+}
+footer i {
+    margin-left: 1em;
+    font-size: 2em;
+}
+main, #rodape {
+    position:relative;
+    bottom: 2em;
+}
